@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <!--user secret is a secret manager to store sensitive information -->
+    <UserSecretsId>1063337ab261bdd9810bfecb1fe78598</UserSecretsId>
+  </PropertyGroup>
+
+<ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0-preview.6.21352.12"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0-preview.6.21352.12"/>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.0-preview.6.21352.12"/>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
+</ItemGroup>
+
+</Project>
