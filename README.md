@@ -1,4 +1,4 @@
-# Assignment_CTK_2021
+# Assignment_2021: Weather_API
 Displays the current weather of the cities(entered by user) by using the openweathermap website.
 
 # programming in Python:
